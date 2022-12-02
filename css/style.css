@@ -50,7 +50,7 @@
 }
 /* MAIN */
 main > div {
-  margin: 30px 10px 0px 10px;
+  margin: 30px 0px 0px 0px;
 }
 main h1 {
   color: #25a2c3;
@@ -149,4 +149,7 @@ footer line {
 
 footer a {
   color: #c8e7f0;
+}
+footer .ref {
+  padding-top: 20px;
 }
