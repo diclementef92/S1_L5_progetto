@@ -1,22 +1,6 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"); /* HEADER */
 
-.container p {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.65;
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 10px;
-}
-.banner h1 {
-  color: #25a2c3;
-  font-family: "Montserrat", sans-serif;
-  /* font-size: bold; */
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 40px;
-}
 /* HEADER */
 .logo {
   background-color: black;
@@ -34,6 +18,23 @@
   height: 300px;
   text-align: center;
   padding: 30px;
+  margin-bottom: 60px;
+}
+.banner h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: bold; */
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.banner p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
 }
 
 .banner button {
@@ -48,17 +49,24 @@
   margin-top: 10px;
 }
 /* MAIN */
-/* main div {
-  margin: 60px 10px 0px 10px;
-} */
+main > div {
+  margin: 30px 10px 0px 10px;
+}
 main h1 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
-  /* font-size: bold; */
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 25px;
+}
+
+main div p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 20px 20px 20px;
 }
 .photo {
   width: 80%;
@@ -67,7 +75,8 @@ main h1 {
 }
 .photo img {
   border-radius: 300px;
-  /* TODO: centrare immagine */
+  width: 300px;
+  margin: 0 auto 0 auto;
 }
 
 .citazione-ceo {
@@ -75,6 +84,69 @@ main h1 {
   height: 300px;
   width: 100%;
   color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 .citazione-ceo h1 {
+  padding-top: 50px;
+  color: white;
+  font-size: 35px;
+}
+.citazione-ceo .content {
+  font-style: italic;
+}
+.citazione-ceo .autore {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.citazione-ceo .ruolo {
+  font-size: 18px;
+}
+
+/* MAIN ARTICOLI */
+articoli div {
+  width: 80%;
+  margin: 60px auto 0 auto;
+  text-align: center;
+  border: 1px solid #dee1e3;
+}
+articoli h1 {
+  font-size: 18px;
+}
+articoli img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  padding-bottom: 40px;
+}
+footer h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+footer .telefono {
+  /* text-decoration: underline; */
+}
+footer .email {
+  /* text-decoration: underline; */
+}
+
+footer line {
+  padding-top: 30px;
+}
+
+footer a {
+  color: #c8e7f0;
 }
