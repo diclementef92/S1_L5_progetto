@@ -4,12 +4,16 @@
 /* HEADER */
 .logo {
   background-color: black;
-  padding: 40px;
-  margin: 0 auto 0 auto;
-  text-align: center;
+  padding-left: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+
+  /* margin: 0 auto 0 auto; */
+  /* text-align: center; */
+  /* width: 20vw; */
 }
 .logo img {
-  width: 50%;
+  width: 10vw;
 }
 .banner {
   background-image: url("../images/banner.jpg");
